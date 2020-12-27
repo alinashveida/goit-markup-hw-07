@@ -4,21 +4,18 @@
     justify-content: space-between;
   }
   
-  
-  
-  .work-examples-item:nth-child(-n+6){
+.work-examples-item:nth-child(-n+6){
     margin-bottom: 30px;
   }
   
-  
-  .card-content{
+.card-content{
   border: 1px solid #EEEEEE;
   box-sizing: border-box;
   width: 370px;
   padding: 20px 24px;
   }
   
-  .work-examples-title{
+.work-examples-title{
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
@@ -27,7 +24,7 @@
     color: var(--accent-color);
   }
   
-  .work-examples-text{
+.work-examples-text{
    font-weight: normal;
    font-size: 16px;
    line-height: 1.87;
@@ -35,7 +32,7 @@
    color:var(--secondary-color);
   }
   
-  .work-examples-link{
+.work-examples-link{
     display: block;
     border: 1px solid transparent;
   

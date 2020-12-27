@@ -16,6 +16,11 @@
   
     transform: translateY(100%);
     transition: transform  250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .work-examples-link:hover &,
+    .work-examples-link:focus &{
+      transform: translateY(0%);
+    }
   }
   
   
@@ -24,7 +29,4 @@
     overflow: hidden;
   }
   
-  .work-examples-link:hover .overlay,
-  .work-examples-link:focus .overlay{
-    transform: translateY(0%);
-  }
+ 
